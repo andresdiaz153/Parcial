@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.logo {
+    width: 32%;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo p{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -12%;
+    margin-left: 13px;
+}
+
+.car1{
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    background: linear-gradient(to right, #1aebb6 35.39%, white 25%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    width: 100%; 
+}
+
+.containerLogin {
+    width: 80%; 
+    height: 100%; 
+    background: linear-gradient(to right, #1aebb6 31.7%, white 22%);
+    box-shadow: 0px 0px 10px rgba(5, 5, 5, 0.3);
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+}
+
+.logo {
+    width: 32%;
+    height: 425px;
+    
+}
+
+.login { 
+    width: 68%;
+    position: relative; 
+}
+
+.help {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none; 
+    cursor: pointer;
+}
+
+.loginConte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 50%;
+    padding-top: 50px;
+}
+
+.loginConte h1 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.email {
+    margin-bottom: 20px;
+    width: 300px;
+    position: relative; 
+}
+
+.email h6 {
+    margin-bottom: 5px;
+}
+
+.email input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+   
+}
+
+.button button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1aebb6;
+    color: white;
+    width: 300px;
+}
+
+.button button:hover {
+    background-color: #17b8a9;
+}
+
+#password-btn {
+    position: relative; 
+    right: -20%; 
+    border: none; 
+    cursor: pointer;
+     
+}   
+
+
+
+
+    
+
+  
+  
